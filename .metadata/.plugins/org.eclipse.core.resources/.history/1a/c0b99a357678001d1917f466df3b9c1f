@@ -1,0 +1,61 @@
+package Handle;
+
+public class Testt {
+	
+	synchronized static void printTable(int n) {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println(i*n);
+			}
+	}
+	{
+		System.out.println("Thread is running..");
+	}
+
+	public class MyThread extends Thread{
+		static Testt T;
+		int printTable;
+		public void run() {
+			T.printTable(1); 
+			this.T=T;
+		}
+		
+	}
+	public class MyThread1 extends Thread{
+		static Testt T;
+		int printTable;
+		public void run() {
+			T.printTable(1); 
+			this.T=T;
+		
+		//public void run() {
+			//Testt.printTable(10); 
+		}
+	}
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 T=new Testt();
+		 MyThread a=new MyThread();
+          a.start();
+          
+          MyThread a1=new MyThread();
+          a1.start();
+        
+          MyThread1 b=new MyThread1();
+          b.start();
+          
+          MyThread1 b1=new MyThread1();
+          b1.start();
+          
+	}
+
+}
+
+/*static A1 a;
+int Amount;
+
+public void run() {
+	a.withdraw_Balance(Amount);
+}*/
+

@@ -1,0 +1,34 @@
+package Abc;
+
+public class Inheritance {
+	
+	void showInheritance()
+	{
+		System.out.println("a class method");
+		
+	}
+	class B extends Inheritance
+	{
+		void showB()
+	
+	{
+		System.out.println("b class method");
+		
+	}
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Inheritance obj1=new Inheritance();
+		obj1.showInheritance();
+		
+		System.out.println("---------");
+		
+		B obj2=new B();
+		obj2.showInheritance();
+		obj2.showB();
+		
+
+	}
+
+}

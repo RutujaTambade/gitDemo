@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Example.ArrayDublicate&apos; to &apos;AmStrongNumber&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;Example.ArrayDublicate&apos;&#x0D;&#x0A;- Renamed element: &apos;Example.AmStrongNumber&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArrayDublicate&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;Example{ArrayDublicate.java[ArrayDublicate" matchStrategy="1" name="AmStrongNumber" qualified="false" references="true" similarDeclarations="false" stamp="1671873246778" textual="false" version="1.0"/>
+</session>
