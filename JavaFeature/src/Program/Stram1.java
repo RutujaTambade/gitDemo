@@ -14,7 +14,7 @@ public class Stram1 {
 		List<Integer> l=Arrays.asList(1,2,3,4,5,6,7,8,9,10);
 		
 		System.out.println(l);
-		
+		 
        List<Integer> al=new ArrayList<>();
        List<Integer> all=new ArrayList<>();
 		

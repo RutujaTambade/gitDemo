@@ -1,13 +1,15 @@
 package Study;
 
-import java.time.LocalDate;
+import java.time.*;
 import java.util.Date;
+
 
 public class DateJava {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-        LocalDate l= LocalDate.now();
+        LocalDateTime l= LocalDateTime.now();
+        
         System.out.println(l);
 	}
 

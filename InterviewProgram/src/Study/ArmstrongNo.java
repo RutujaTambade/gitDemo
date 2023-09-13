@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class ArmstrongNo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		int number,orignalNumber,Reminder,result =0;
 		

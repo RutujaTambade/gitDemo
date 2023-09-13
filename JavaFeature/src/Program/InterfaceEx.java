@@ -1,18 +1,27 @@
+
 package Program;
 
 public interface InterfaceEx {
     
-	public void m();
+	 void m( int a,int b);
 	
-}
- class Test implements InterfaceEx{
+   public static void main(String[]args) {
 	 
-	 public void m() {
-		 System.out.println("abstract class body");
-	 }
-	 public static void main (String[]args) {
-		  
-		 Test t=new Test();
-		 t.m();
-	 }
+	   InterfaceEx f=(a,b)->{
+		   System.out.println(a+b);
+    
+	   };
+	   f.m(5, 8);
+	   
+	//------Runnable
+	   
+	   Runnable t1=()->{
+			for(int i=3; i<=20;i++) {
+				System.out.println(i);
+			}
+		};
+		Thread t2=new Thread(t1);
+		t2.start();
+	   }
+   
  }

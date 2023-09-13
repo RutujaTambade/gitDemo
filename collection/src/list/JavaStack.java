@@ -12,7 +12,7 @@ public class JavaStack {
 		s.push(456);
 		s.push(789);
 		s.push(101);
-		//s.pop();
+		//1s.pop();
 		s.peek();
 		s.search(2);
 		s.empty();
